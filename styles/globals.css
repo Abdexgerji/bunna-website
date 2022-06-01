@@ -122,7 +122,7 @@ footer {
 }
 
 .font-gradient {
-  display: inline;
+  display: inline-block;
   background: -webkit-linear-gradient(
     116deg,
     var(--my-yellow-color),
@@ -131,4 +131,21 @@ footer {
   /* background-clip: text; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.news-card {
+  border: 1px solid beige;
+  width: 30%;
+  padding: 4px;
+  box-shadow: 0px 0px 11px 0px #ffff006e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.news-card-image {
+  width: 85%;
+  margin: auto;
+  display: block;
 }
